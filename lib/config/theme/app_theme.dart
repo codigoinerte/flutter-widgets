@@ -33,4 +33,12 @@ class AppTheme{
     ),    
   );
 
+  // método que sirve para copiar clases
+  AppTheme copyWith({
+    int? selectedColor,
+    bool? isDarkmode
+  }) => AppTheme(
+    selectedColor:  selectedColor ?? this.selectedColor,
+    isDarmode: isDarkmode ?? this.isDarmode
+  );
 }
