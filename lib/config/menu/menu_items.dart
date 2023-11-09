@@ -47,7 +47,7 @@ const appMenuItems = <MenuItems>[
   ),
   MenuItems(
     title: "Animated container", 
-    subtitle: "Stafeful widget animado", 
+    subtitle: "Stateful widget animado", 
     link: "/animated", 
     icon: Icons.check_box_outline_blank_rounded
   ),
@@ -64,10 +64,16 @@ const appMenuItems = <MenuItems>[
     icon: Icons.accessible_rounded
   ),
   MenuItems(
-    title: "Inifinte scroll y pull", 
+    title: "Infinite scroll y pull", 
     subtitle: "Listas infinitas y pull to refresh", 
     link: "/infinite", 
     icon: Icons.list_alt_rounded
+  ),
+  MenuItems(
+    title: "Cambiar tema", 
+    subtitle: "Cambiar tema de la aplicación", 
+    link: "/theme-changer", 
+    icon: Icons.color_lens_outlined
   ),
 
 ];
